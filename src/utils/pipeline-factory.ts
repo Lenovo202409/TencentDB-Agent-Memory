@@ -466,7 +466,7 @@ export function createL2Runner(opts: {
         logger.debug?.(
           `${TAG} [L2] No new L1 records since cursor (session=${sessionKey}, updatedAfter=${cursor ?? "(full)"}), skipping scene extraction`,
         );
-        return;
+        return { skipped: true };
       }
 
       logger.debug?.(

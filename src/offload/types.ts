@@ -247,6 +247,6 @@ export const PLUGIN_DEFAULTS = {
   emergencyTargetRatio: 0.6,
   mmdMaxTokenRatio: 0.2,
   l3TokenCountMode: "tiktoken" as const,
-  l3TiktokenEncoding: "o200k_base" as const,
+  l3TiktokenEncoding: "cl100k_base" as const,
   defaultSystemOverheadRatio: 0.12,
 } as const;
