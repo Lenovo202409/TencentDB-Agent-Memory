@@ -181,7 +181,7 @@ openclaw gateway restart
 {
   "plugins": {
     "slots": {
-      "contextEngine": "openclaw-context-offload"
+      "contextEngine": "memory-tencentdb"
     }
   }
 }
